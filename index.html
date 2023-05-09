@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Art | Home</title>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header id="home">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light-subtle px-4 fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand fs-1" href="#home"><i class="bi bi-droplet-fill"></i>Vegan<span class="text-success">Art</span></a>
+            <a class="navbar-brand fs-6 pt-4" href="#home">The Vegan Tattoo Studio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 text-end">
+                    <li class="nav-item">
+                        <a class="nav-link active text-success" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQs</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SERVICES
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#services">Tattoos</a></li> 
+                            <li><a class="dropdown-item" href="#services">Tattoo Touch-Ups</a></li>
+                            <li><a class="dropdown-item" href="#services">Tattoo Cover-Ups</a></li>
+                            <li><a class="dropdown-item" href="#services">After-care</a></li>
+                            <li><a class="dropdown-item" href="#services">Piercing</a></li>
+                            <li><a class="dropdown-item" href="#services">Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+      </header>
+
+        <!-- Carousal -->
+      <section class="carousal my-5">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./images/tattoo-making.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./images/pets.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item"data-bs-interval="5000">
+                <img src="./images/cat-tattoo-designs-cover-32.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+    <!-- About US -->
+    <section class="about my-5" id="about">
+        <div class="container-fluid bg-tertiary ">
+            <div class="text-center">
+                <h1>ABOUT <span class="text-success">US</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            
+            <div class="row mt-5 ms-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                    <h1 class="text-center">Our <span class="text-success">Mission</span></h1>
+                    <p class="p-2 ">
+                      Our mission is to provide a creative and compassionate space where people can express themselves through body art without compromising their ethical values. We believe that tattoos are a powerful form of self-expression, and we want to make it accessible to everyone while promoting a cruelty-free lifestyle. That's why we are committed to using only vegan products and maintaining a completely animal-free environment in our studio.
+                    </p>
+                    <button id="faq"type="button" class="btn btn-light mb-2">FAQs</button>
+                    
+                    <!-- Accordian dropdown -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What's a vegan tattoo?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              As the name suggests, vegan tattoos don't have animal products involved in any part of the tattooing experience. The ink in traditional tattoos has animal elements, such as glycerin.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Are Tattoos Safe?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Having a tattoo is perfectly safe as long as you go to a trustworthy artist who is following all necessary safety precautions. Assure that you are absolutely frank about any medical conditions.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              How much does a tattoo cost?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              When it comes to tattoos you are getting what you're paying for. Yeah, there's plenty of people out there to tattoo who will charge very little. But look for consistency, and be prepared to pay for that. Never haggle about a tattoo price. For the artist it is insensitive. Think about it this way: This is a piece of art you're going to wear for life.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              How long does it take for a tattoo to heal?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              A few days after the tattoo is complete, the skin around the tattoo starts peeling, similar to a sunburn. It is crucial to avoid picking on the paint, as this can damage the artwork and increase the risk of infection. After having a tattoo, the peeling process may end 7 to 10 days, leaving the skin shiny and slightly wrinkled. After two weeks the tattoo is fully healed.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12"  data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                  <center><img src="./images/man2.jpg" class="img-fluid pt-5" width="400"></center>
+                    
+                    <h4 class="text-center pt-1" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Eren Yeager</h4>
+                    <h6 class="text-center text-success"  data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Founder & Artist</h6>
+                    <p  data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Our founder and a professional vegan tattoo artist, Eren Yeager has chosen a life of compassion and facilitates cruelty-free aesthetic and meaningful artistic dreams on the skin of the wearer, for life. He is known for his unique style of customized tattoo art and also ensures that the entire tattooing process is 100% cruelty-free and hygienic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services py-5 bg-light" id="services">
+        <div class="container">
+            <div class="text-center my-2">
+                <h1>OUR <span class="text-success">SERVICES</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row my-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-up"
+                data-aos-duration="1000">
+                    <img src="./images/tattoo1.jpg" class="card-img-top img-thumbnail" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Tattoos</h5>
+                          <p class="card-text">Even while beauty may just be skin deep, there may be far deeper motivations for having tattoos. Tattoo designs are a unique expression of the individual who is below the artwork.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-up"
+                data-aos-duration="1400">
+                    <img src="./images/touch.jpg" class="card-img-top img-thumbnail" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Tattoo Touch-Up</h5>
+                          <p class="card-text">We specialize in enhancing and fixing tattoos to perfection. We work with precision and expertise to give clients the best results possible, ensuring their tattoos look their absolute best.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-up"
+                data-aos-duration="1800">
+                    <img src="./images/coverup.jpg" class="card-img-top img-thumbnail">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Tattoo Cover-Up</h5>
+                          <p class="card-text">Covering up a messed up tattoo is a whacking job requiring  expert artist to design it smoothly. But you don’t have to worry, we will bail you out with the best cover-up tattoos.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                
+            </div>    
+            <div class="row my-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-up"
+                data-aos-duration="1800">
+                    <img src="./images/aftercare.jpg" class="card-img-top img-thumbnail" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">After-Care</h5>
+                          <p class="card-text">We offer comprehensive aftercare instructions to ensure proper healing of your tattoo. We recommend using our vegan-friendly aftercare products to keep your tattoo looking its best.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12"data-aos="fade-up"
+                data-aos-duration="1400">
+                    <img src="./images/piercing.jpg" class="card-img-top img-thumbnail" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Piercing</h5>
+                          <p class="card-text">Piercing is now regarded as one of the most widespread and well-known fashion trends. This trend of fashion appears to be gaining traction, particularly among millennials.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="fade-up"
+                data-aos-duration="1000">
+                    <img src="./images/training.png" class="card-img-top img-thumbnail" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">Training</h5>
+                          <p class="card-text">We are an esteemed and prestigious tattoo training studio in India. Our tattoo artists are gifted in various competitions and have won various awards for their work.</p>
+                          <a href="#contact" class="btn btn-outline-success">Book now</a>
+                      </div>
+                </div>
+                
+            </div>    
+
+        </div>
+    </section>
+    <section class="contact mb-5" id="contact" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="600"
+    data-aos-offset="0">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1><span class="text-success">Book A Free Call</h1>
+                <hr class="w-50 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-12"> 
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputName" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputLName" class="form-label">Last Name</label>
+                          <input type="text" class="form-control" id="inputLName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <label for="inputPhone" class="form-label">Phone Number</label>
+                          <input type="number" class="form-control" id="inputPhone">
+                        </div>
+                       
+                        <div class="col-12">
+                          <div class="submitbtn">
+                            <button type="submit" class="btn btn-outline-success">Submit</button>
+                          </div>
+                          
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Local JS -->
+    <script src="./style/style.js"></script>
+    <!-- Bootstrap JS link --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

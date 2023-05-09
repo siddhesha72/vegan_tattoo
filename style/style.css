@@ -1,0 +1,30 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+/* Fonts */
+h1{
+    font-family: 'Caveat Brush', cursive;
+}
+
+.carousel-item img{
+ width: 100%;
+ height: 80vh;
+}
+
+.submitbtn{
+    position:absolute;
+    left: 47%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
